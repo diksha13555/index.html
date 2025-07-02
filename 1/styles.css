@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f06292;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-image: url('https://via.placeholder.com/1200x400');
+    background-size: cover;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 3rem;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 1rem;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-card button {
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    background-color: #f06292;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f8bbd0;
+    margin-top: 2rem;
+}

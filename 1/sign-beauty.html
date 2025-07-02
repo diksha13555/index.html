@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Beauty in Signs</title>
+  <link rel="stylesheet" href="sign-style.css" />
+</head>
+<body>
+  <header>
+    <h1>Beauty in Signs</h1>
+    <nav>
+      <input type="text" id="searchInput" placeholder="Search with beauty & signs..." onkeyup="searchProducts()"/>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Inclusive Beauty for All</h2>
+    <p>Celebrating self-expression with sign language and stunning looks.</p>
+    <img src="https://www.startasl.com/wp-content/uploads/startasl/asl-alphabet_wallpaper_1440x1280.png" alt="Sign A" class="sign-icon"/>
+  </section>
+
+  <section class="products" id="productList">
+    <!-- Product Cards with Sign Visuals -->
+    <div class="product-card" data-name="Lipstick">
+      <img src="https://www.kindpng.com/picc/m/106-1068017_without-brand-lipstick-transparent-lipstick-png-png-download.png" alt="Lipstick"/>
+      <h3>Lipstick</h3>
+      <img src="https://www.teachersprintables.net/samples/Sign_Language_with_L.png" class="sign-icon" alt="Sign L"/>
+      <p>$15.00</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card" data-name="Foundation">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.vg1no4cbSvPh6ustTAt1vAHaHa&pid=Api&P=0&h=180" alt="Foundation"/>
+      <h3>Foundation</h3>
+      <img src="https://i.pinimg.com/originals/f4/b2/ba/f4b2bac0d1c37e85fae272ff71ac7ac0.png" class="sign-icon" alt="Sign F"/>
+      <p>$25.00</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card" data-name="Eyeliner">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.8XXbrLFBuOushmnRYoI1BAAAAA&pid=Api&P=0&h=180" alt="Eyeliner"/>
+      <h3>Eyeliner</h3>
+      <img src="https://tse1.mm.bing.net/th?id=OIP.tjISQNdLoQ0vKZceLIUFAAAAAA&pid=Api&P=0&h=180" class="sign-icon" alt="Sign E"/>
+      <p>$10.00</p>
+      <button>Add to Cart</button>
+    </div>
+
+     <div class="product-card" data-name="highlighter">
+      <img src="https://www.elfcosmetics.co.uk/dw/image/v2/BBXC_PRD/on/demandware.static/-/Sites-elf-master/default/dwabbba903/83707_BakedHighlighter_037AA.jpg?sw=1100&sh=1100&sm=fit&sfrm=jpg" alt="highlighter"/>
+      <h3>highlighter</h3>
+      <img src="https://classroomclipart.com/image/static2/preview2/sign-language-letter-h-outline-10344.jpg" class="sign-icon" alt="Sign H"/>
+      <p>$90.00</p>
+      <button>Add to Cart</button>
+    </div>
+
+     <div class="product-card" data-name="nail paint">
+      <img src="https://www.pngitem.com/pimgs/m/476-4766667_nail-polish-bottle-png-image-nail-polish-no.png" alt="nail paint"/>
+      <h3>nail paint</h3>
+      <img src="https://i.pinimg.com/736x/b3/39/12/b33912b69d1cbf41fca33022cfa570de.jpg" class="sign-icon" alt="Sign N"/>
+      <p>$30.00</p>
+      <button>Add to Cart</button>
+    </div>
+
+    
+     <div class="product-card" data-name="Compact">
+      <img src="https://s7d9.scene7.com/is/image/HoltRenfrew1/u_656509012022_01" alt="foundation"/>
+      <h3>Compact</h3>
+      <img src="https://i.pinimg.com/736x/51/ad/f3/51adf31bef12ecb67c8bdd28fa69741a--letter-c-sign-language.jpg" class="sign-icon" alt="Sign C"/>
+      <p>$70.00</p>
+      <button>Add to Cart</button>
+    </div>
+
+    
+     <div class="product-card" data-name="mascara">
+      <img src="https://images.squarespace-cdn.com/content/v1/5d5da0510df7c800018798fc/5ad26c81-751b-468d-be46-c35057380f5b/MPL_6-in-1+Clean+Mascara_WSWP_75191_V2_WEB.jpg" alt="mascara"/>
+      <h3>mascara</h3>
+      <img src="https://i.pinimg.com/originals/5a/df/bc/5adfbc57e422b14c7da5fca610f4c0ee.png" class="sign-icon" alt="Sign M"/>
+      <p>$40.00</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card" data-name="makeup kit">
+      <img src="https://tse3.mm.bing.net/th?id=OIP.6T8Izvje8xzabZsN0uITygHaHa&pid=Api&P=0&h=180" alt="mascara"/>
+      <h3>Makeup Kit</h3>
+      <img src="https://i.pinimg.com/originals/5a/df/bc/5adfbc57e422b14c7da5fca610f4c0ee.png" class="sign-icon" alt="Sign M"/>
+      <p>$150.00</p>
+      <button>Add to Cart</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Beauty in Signs. Empowering Expression.</p>
+  </footer>
+
+  <script src="sign-script.js"></script>
+  <div class="product-card" id="lipstick">
+  <img src="images/lipstick.jpg" alt="Lipstick">
+  <h3>Lipstick</h3>
+  <p>$15.00</p>
+  <button>Add to Cart</button>
+</div>
+
+<div class="product-card" id="foundation">
+  ...
+</div>
+
+<div class="product-card" id="mascara">
+  ...
+</div>
+
+<div class="product-card" id="nailpolish">
+  ...
+</div>
+
+</body>
+</html>

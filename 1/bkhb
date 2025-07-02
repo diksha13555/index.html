@@ -1,0 +1,26 @@
+<section class="categories">
+  <h2>Explore Categories</h2>
+  <div class="category-grid">
+
+    <a href="sign-beauty.html#lipstick" class="cat-card">
+      <img src="images/lips.jpg" alt="Lips">
+      <p>💄 Lips</p>
+    </a>
+
+    <a href="sign-beauty.html#foundation" class="cat-card">
+      <img src="images/face.jpg" alt="Face">
+      <p>🧴 Face</p>
+    </a>
+
+    <a href="sign-beauty.html#mascara" class="cat-card">
+      <img src="images/eyes.jpg" alt="Eyes">
+      <p>👁 Eyes</p>
+    </a>
+
+    <a href="sign-beauty.html#nailpolish" class="cat-card">
+      <img src="images/nails.jpg" alt="Nails">
+      <p>💅 Nails</p>
+    </a>
+
+  </div>
+</section>
